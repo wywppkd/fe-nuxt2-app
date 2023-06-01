@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 不检查 commit msg 规范
+# npx --no-install commitlint --edit
